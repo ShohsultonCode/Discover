@@ -1,0 +1,21 @@
+/* custom.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.button-attempts{
+    background: #360752;
+}
+/* Define the initial state of the element */
+.fade-enter {
+    opacity: 0;
+}
+
+/* Define the final state of the element */
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+}
